@@ -13,3 +13,7 @@ variable "aws_profile" {
   description = "Set terraform version"
 }
 
+variable "aws_s3_tags" {
+  type        = map(string)
+  description = "Set tags for S3"
+}
